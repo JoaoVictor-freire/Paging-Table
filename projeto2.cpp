@@ -76,7 +76,7 @@ int OTM(vector<int>& pages, int frames) {
         if (find(memory.begin(), memory.end(), page) == memory.end()) {
               
             if (memory.size() == frames) {
-                // Find the page to replace
+                // Acha a página para substituir
                 int farthest = -1, replace_index = -1;
                 for (int j = 0; j < memory.size(); j++) {
 
